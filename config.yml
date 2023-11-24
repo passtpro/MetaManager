@@ -1,0 +1,206 @@
+libraries:                                      # Library mappings must have a colon (:) placed after them
+  Movies:
+    library_name: Movies
+    metadata_path:
+    - repo: collections/actors/movies
+    - repo: collections/awards/movies
+    - repo: collections/best/movies
+    - repo: collections/countries/movies
+    - repo: collections/decades/movies
+    - repo: collections/genres/movies
+    - repo: collections/holidays/movies
+    - repo: collections/lists/movies
+    - repo: collections/memoriam/movies
+    - repo: collections/networks/movies
+    - repo: collections/new/movies
+    - repo: collections/random/movies
+    - repo: collections/recommendations/movies
+    - repo: collections/trending/movies
+    - repo: collections/years/movies
+    - repo: collections/separators/movies
+#  4K Movies:
+#    library_name: Movies (4K)
+#    metadata_path:
+#      - repo: collections/actors/movies
+#      - repo: collections/awards/movies
+#      - repo: collections/best/movies
+#      - repo: collections/countries/movies
+#      - repo: collections/decades/movies
+#      - repo: collections/genres/movies
+#      - repo: collections/holidays/movies
+#      - repo: collections/lists/movies
+#      - repo: collections/memoriam/movies
+#      - repo: collections/networks/movies
+#      - repo: collections/new/movies
+#      - repo: collections/random/movies
+#      - repo: collections/recommendations/movies
+#      - repo: collections/trending/movies
+#      - repo: collections/years/movies
+  TV Shows:
+    library_name: TV Shows
+    metadata_path:
+    - repo: collections/actors/shows
+    - repo: collections/awards/shows
+    - repo: collections/best/shows
+    - repo: collections/countries/shows
+    - repo: collections/decades/shows
+    - repo: collections/genres/shows
+    - repo: collections/holidays/shows
+    - repo: collections/lists/shows
+    - repo: collections/memoriam/shows
+    - repo: collections/networks/shows
+    - repo: collections/new/shows
+    - repo: collections/random/shows
+    - repo: collections/recommendations/shows
+    - repo: collections/trending/shows
+    - repo: collections/years/shows
+    - repo: collections/separators/shows
+#  4K TV Shows:
+#    library_name: TV Shows (4K)
+#    metadata_path:
+#      - repo: collections/actors/shows
+#      - repo: collections/awards/shows
+#      - repo: collections/best/shows
+#      - repo: collections/countries/shows
+#      - repo: collections/decades/shows
+#      - repo: collections/genres/shows
+#      - repo: collections/holidays/shows
+#      - repo: collections/lists/shows
+#      - repo: collections/memoriam/shows
+#      - repo: collections/networks/shows
+#      - repo: collections/new/shows
+#      - repo: collections/random/shows
+#      - repo: collections/recommendations/shows
+#      - repo: collections/trending/shows
+#      - repo: collections/years/shows
+playlist_files:
+- repo: playlists/general/movies_playlists_general
+- repo: playlists/general/shows_playlists_general
+settings:                                       # Can be individually specified per library as well
+# custom_repo: https://raw.githubusercontent.com/nwithan8/configs/main/plex/pmm/
+  cache: true
+  cache_expiration: 60
+  asset_directory: config/assets
+  asset_folders: true
+  asset_depth: 0
+  create_asset_folders: false
+  dimensional_asset_rename: false
+  download_url_assets: false
+  show_missing_season_assets: false
+  show_missing_episode_assets: false
+  show_asset_not_needed: true
+  sync_mode: sync
+  minimum_items: 1
+  default_collection_order:
+  delete_below_minimum: true
+  delete_not_scheduled: false
+  run_again_delay: 2
+  missing_only_released: false
+  only_filter_missing: false
+  show_unmanaged: true
+  show_filtered: false
+  show_options: false
+  show_missing: true
+  show_missing_assets: true
+  save_missing: true
+  tvdb_language: eng
+  ignore_ids:
+  ignore_imdb_ids:
+  item_refresh_delay: 0
+  verify_ssl: true
+  playlist_sync_to_users: all
+  prioritize_assets: false
+  playlist_report: true
+  check_nightly: false
+  show_unconfigured: true
+  playlist_exclude_users:
+  custom_repo:
+webhooks:
+  changes:
+  error:
+  run_start:
+  run_end:
+  version:
+  delete:
+plex:                            # Can be individually specified per library as well; REQUIRED for the script to run
+  url: http://10.0.5.15:32400
+  token: bgF7WZWTj1qxP-4nXH1S
+  timeout: 60
+  clean_bundles: false
+  empty_trash: false
+  optimize: false
+  db_cache:
+tmdb:                            # REQUIRED for the script to run
+  apikey: b37af349421344fed30327d22c9aba1e
+  language: en
+#tautulli:                        # Can be individually specified per library as well
+#  url: http://192.168.1.12:8181
+#  apikey: ################################
+#omdb:
+#  apikey: ########
+#  cache_expiration: 60
+#mdblist:
+#  apikey: #########################
+#  cache_expiration: 60
+#notifiarr:
+#  apikey: ####################################
+#anidb:                           # Not required for AniDB builders unless you want mature content
+#  username: ######
+#  password: ######
+#radarr:                          # Can be individually specified per library as well
+#  url: http://192.168.1.12:7878
+#  token: ################################
+#  add_missing: false
+#  add_existing: false
+#  root_folder_path: S:/Movies
+#  monitor: true
+#  availability: announced
+#  quality_profile: HD-1080p
+#  tag:
+#  search: false
+#  radarr_path:
+#  plex_path:
+#sonarr:                          # Can be individually specified per library as well
+#  url: http://192.168.1.12:8989
+#  token: ################################
+#  add_missing: false
+#  add_existing: false
+#  root_folder_path: "S:/TV Shows"
+#  monitor: all
+#  quality_profile: HD-1080p
+#  language_profile: English
+#  series_type: standard
+#  season_folder: true
+#  tag:
+#  search: false
+#  cutoff_search: false
+#  sonarr_path:
+#  plex_path:
+  cache_expiration: 60
+  region:
+trakt:
+  client_id: 233a1f14cc86db85eac151be66e5c959a0b0b7f8b085311f1b444f7667d953dd
+  client_secret: 0e6f4213374b2979261e596d9f697a18603221ac01b0c3430f734681773340a0
+  pin:
+  authorization:
+    # everything below is autofilled by the script
+    access_token: a352794e5408962c202e45ea5a7c2956fb32301340497ee7ad072e85c617eafa
+    token_type: Bearer
+    expires_in: 7889238
+    refresh_token: 9616b2fd85ff0838f16e60a284199cbc286eb7b0183a46b2ff5a29d8c7aac44a
+    scope: public
+    created_at: 1700715038
+
+  cache_expiration: 60
+  region:
+mal:
+  client_id: bc04ef9ea625991ce03c6e5ac0cb850f
+  client_secret: 3120eedaa9b9783e53353fdd788c1b9775987aa0ff2f2339f0b1f738c8c560cc
+  authorization:
+    # everything below is autofilled by the script
+    access_token:
+    token_type:
+    expires_in:
+    refresh_token:
+  localhost_url:
+  cache_expiration: 60
