@@ -77,7 +77,7 @@ playlist_files:
 - repo: playlists/general/movies_playlists_general
 - repo: playlists/general/shows_playlists_general
 settings:                                       # Can be individually specified per library as well
-# custom_repo: https://raw.githubusercontent.com/nwithan8/configs/main/plex/pmm/
+  custom_repo: #input GitHub repo here
   cache: true
   cache_expiration: 60
   asset_directory: config/assets
@@ -123,15 +123,15 @@ webhooks:
   version:
   delete:
 plex:                            # Can be individually specified per library as well; REQUIRED for the script to run
-  url: http://10.0.5.15:32400
-  token: bgF7WZWTj1qxP-4nXH1S
+  url: #input Plex instance URL
+  token: #input Plex instance token
   timeout: 60
   clean_bundles: false
   empty_trash: false
   optimize: false
   db_cache:
 tmdb:                            # REQUIRED for the script to run
-  apikey: b37af349421344fed30327d22c9aba1e
+  apikey: #Input custom TMDB API Key
   language: en
 #tautulli:                        # Can be individually specified per library as well
 #  url: http://192.168.1.12:8181
@@ -179,23 +179,23 @@ tmdb:                            # REQUIRED for the script to run
   cache_expiration: 60
   region:
 trakt:
-  client_id: 233a1f14cc86db85eac151be66e5c959a0b0b7f8b085311f1b444f7667d953dd
-  client_secret: 0e6f4213374b2979261e596d9f697a18603221ac01b0c3430f734681773340a0
+  client_id: #Input custom trakt client ID
+  client_secret: #Input custom trakt client secret
   pin:
   authorization:
     # everything below is autofilled by the script
-    access_token: a352794e5408962c202e45ea5a7c2956fb32301340497ee7ad072e85c617eafa
-    token_type: Bearer
-    expires_in: 7889238
-    refresh_token: 9616b2fd85ff0838f16e60a284199cbc286eb7b0183a46b2ff5a29d8c7aac44a
-    scope: public
-    created_at: 1700715038
+    access_token: 
+    token_type: 
+    expires_in: 
+    refresh_token: 
+    scope: 
+    created_at: 
 
   cache_expiration: 60
   region:
 mal:
-  client_id: bc04ef9ea625991ce03c6e5ac0cb850f
-  client_secret: 3120eedaa9b9783e53353fdd788c1b9775987aa0ff2f2339f0b1f738c8c560cc
+  client_id: #Input custom mal client ID
+  client_secret: #Input custom mal client secret
   authorization:
     # everything below is autofilled by the script
     access_token:
