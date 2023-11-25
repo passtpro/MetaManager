@@ -10,6 +10,6 @@ collections:
     trakt_list:
       - https://trakt.tv/users/nwithan8/lists/recommendations-plex-sync?sort=popularity,asc
     collection_order: release.desc
-    visible_library: true
+    visible_library: false
     visible_home: true
     visible_shared: true

@@ -18,7 +18,7 @@ collections:
     sync_mode: sync
     visible_home: true
     visible_shared: true
-    visible_library: true
+    visible_library: false
 
   "📺 Now On Plex":
     template: { name: New,
@@ -32,6 +32,6 @@ collections:
         # Shows added in the last 30 days
         added: 30
     sync_mode: sync
-    visible_library: true
+    visible_library: false
     visible_home: true
     visible_shared: true

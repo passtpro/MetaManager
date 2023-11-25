@@ -13,7 +13,7 @@ collections:
   #  builder_level: episode
   #  plex_pilots: true
   #  sync_mode: sync
-  #  visible_library: true
+  #  visible_library: false
   #  visible_home: true
   #  visible_shared: true
 
@@ -30,7 +30,7 @@ collections:
     sync_mode: sync
     visible_home: true
     visible_shared: true
-    visible_library: true
+    visible_library: false
 
   "👀 What Everyone Is Watching":
     template: { name: Chart,
@@ -43,7 +43,7 @@ collections:
       list_days: 30
       list_size: 15
       list_minimum: 2
-    visible_library: true
+    visible_library: false
     visible_home: true
     visible_shared: true
 
@@ -56,6 +56,6 @@ collections:
       limit: 30
     collection_order: custom
     sync_mode: sync
-    visible_library: true
+    visible_library: false
     visible_home: true
     visible_shared: true

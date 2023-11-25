@@ -9,9 +9,7 @@ collections:
     trakt_list:
       - https://trakt.tv/users/lish408/lists/stand-up-comedy-specials
     collection_order: random
-    visible_library: true
-    visible_home: true
-    visible_shared: true
+
 
   "😜 Spoofs and Parodies":
     template: { name: Genre }
@@ -19,9 +17,7 @@ collections:
     trakt_list:
       - https://trakt.tv/users/majeed_pk/lists/spoof-parody-films
     collection_order: random
-    visible_library: true
-    visible_home: true
-    visible_shared: true
+
 
   "👩‍❤️‍💋‍👨 Rom-com Central":
     template: { name: Genre }
@@ -29,9 +25,7 @@ collections:
     trakt_list:
       - https://trakt.tv/users/lish408/lists/rotten-tomatoes-the-200-best-romantic-comedies-of-all-time
     collection_order: random
-    visible_library: true
-    visible_home: true
-    visible_shared: true
+
 
   "🏀 Slam Dunk":
     template: { name: Genre }
@@ -75,9 +69,7 @@ collections:
     summary: "Based on a true story"
     mdblist_list: https://mdblist.com/lists/hdlists/based-on-or-inspired-by-a-true-story
     collection_order: random
-    visible_library: true
-    visible_home: true
-    visible_shared: true
+
 
   "🔍 A Real-Life Whodunnit":
     template: { name: Genre }
@@ -85,9 +77,7 @@ collections:
     trakt_list:
       - https://trakt.tv/users/lish408/lists/true-crime-documentary-series-film
     collection_order: random
-    visible_library: true
-    visible_home: true
-    visible_shared: true
+
 
   "👨‍🍳 Bon Appetit":
     template: { name: Genre }
@@ -105,9 +95,7 @@ collections:
     trakt_list:
       - https://trakt.tv/users/majeed_pk/lists/documentaries
     collection_order: random
-    visible_library: true
-    visible_home: true
-    visible_shared: true
+
 
   "🧥 I'm Gonna Make Him an Offer":
     template: { name: Genre }
@@ -136,9 +124,7 @@ collections:
     trakt_list:
       - https://trakt.tv/users/majeed_pk/lists/existentialist-films
     collection_order: random
-    visible_library: true
-    visible_home: true
-    visible_shared: true
+
 
   "⚖️ Order In The Court":
     template: { name: Genre }
@@ -166,9 +152,7 @@ collections:
     trakt_list:
       - https://trakt.tv/users/majeed_pk/lists/feelgood-movies
     collection_order: random
-    visible_library: true
-    visible_home: true
-    visible_shared: true
+
 
   "🧘 Kick Back and Relax":
     template: { name: Genre }
@@ -186,9 +170,7 @@ collections:
     summary: "Cinema is strange."
     letterboxd_list: https://letterboxd.com/maxvayne/list/the-weirdos-videostore-aka-the-weirdos-paradise
     collection_order: random
-    visible_library: true
-    visible_home: true
-    visible_shared: true
+
 
   "⁉️ Controversial Cinema":
     template: { name: Genre }

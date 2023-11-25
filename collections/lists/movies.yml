@@ -12,8 +12,8 @@ collections:
     mdblist_list: https://mdblist.com/lists/hdlists/100-on-rottentomatoes-com
     collection_order: random
     schedule: monthly(1)
-    visible_library: true
-    visible_home: true
+    visible_library: false
+    visible_home: false
     visible_shared: true
 
   # Worst movies of all time, updated monthly
@@ -27,8 +27,8 @@ collections:
       - https://trakt.tv/users/nwithan8/lists/5-or-less-on-rotton-tomatoes?sort=rank,asc
     collection_order: random
     schedule: monthly(1)
-    visible_library: true
-    visible_home: true
+    visible_library: false
+    visible_home: false
     visible_shared: true
 
   "🤨 How Did This Get Made?":
@@ -40,8 +40,8 @@ collections:
       - https://trakt.tv/users/lish408/lists/how-did-this-get-made-podcast
     collection_order: custom
     schedule: weekly(monday)
-    visible_library: true
-    visible_home: true
+    visible_library: false
+    visible_home: false
     visible_shared: true
 
   "👍 Best Movie Ever":
@@ -52,8 +52,8 @@ collections:
       - https://trakt.tv/users/nwithan8/lists/best-movie-ever?sort=added,asc
     collection_order: random
     schedule: daily
-    visible_library: true
-    visible_home: true
+    visible_library: false
+    visible_home: false
     visible_shared: true
 
   "👎 Worst Movie Ever":
@@ -64,8 +64,8 @@ collections:
       - https://trakt.tv/users/nwithan8/lists/worst-movie-ever?sort=added,asc
     collection_order: random
     schedule: daily
-    visible_library: true
-    visible_home: true
+    visible_library: false
+    visible_home: false
     visible_shared: true
 
   "🎩 1001 Movies You Must See Before You Die":
@@ -77,8 +77,8 @@ collections:
       - https://trakt.tv/users/sp1ti/lists/1001-movies-you-must-see-before-you-die
     collection_order: random
     schedule: monthly(1)
-    visible_library: true
-    visible_home: true
+    visible_library: false
+    visible_home: false
     visible_shared: true
 
   "🪣 100 Movies Bucket List":
@@ -90,8 +90,8 @@ collections:
       - https://trakt.tv/users/dildogarden/lists/100-movies-bucket-list
     collection_order: rank.desc
     schedule: monthly(1)
-    visible_library: true
-    visible_home: true
+    visible_library: false
+    visible_home: false
     visible_shared: true
 
   "📽️ The Criterion Collection":
@@ -103,8 +103,8 @@ collections:
       - https://trakt.tv/users/maxwelldeux/lists/the-criterion-collection
     collection_order: critic_rating.desc
     schedule: weekly(sunday)
-    visible_library: true
-    visible_home: true
+    visible_library: false
+    visible_home: false
     visible_shared: true
 
   "🤵‍♂️ Bond. James Bond.":
@@ -115,7 +115,7 @@ collections:
     mdblist_list: https://mdblist.com/lists/hdlists/james-bond-movies
     collection_order: release
     schedule: weekly(sunday)
-    visible_library: true
+    visible_library: false
     visible_home: false
     visible_shared: false
 
@@ -128,7 +128,7 @@ collections:
       - https://trakt.tv/users/cybercelia/lists/mcu
     collection_order: release
     schedule: weekly(sunday)
-    visible_library: true
+    visible_library: false
     visible_home: false
     visible_shared: false
 
@@ -141,7 +141,7 @@ collections:
       - https://trakt.tv/users/maxrax/lists/dc-cinematics
     collection_order: release
     schedule: weekly(sunday)
-    visible_library: true
+    visible_library: false
     visible_home: false
     visible_shared: false
 
@@ -154,7 +154,7 @@ collections:
       - https://www.imdb.com/list/ls093405279
     collection_order: release
     schedule: weekly(sunday)
-    visible_library: true
+    visible_library: false
     visible_home: false
     visible_shared: false
 
@@ -168,7 +168,7 @@ collections:
     url_background: https://i.redd.it/vz20prnp8v551.jpg
     collection_order: release
     schedule: weekly(sunday)
-    visible_library: true
+    visible_library: false
     visible_home: false
     visible_shared: false
 
@@ -182,7 +182,7 @@ collections:
     url_background: https://images.unsplash.com/photo-1579566346927-c68383817a25
     collection_order: custom
     schedule: weekly(sunday)
-    visible_library: true
+    visible_library: false
     visible_home: false
     visible_shared: false
 
@@ -196,7 +196,7 @@ collections:
     url_background: https://wallpapercave.com/wp/vPJGO64.jpg
     collection_order: custom
     schedule: weekly(sunday)
-    visible_library: true
+    visible_library: false
     visible_home: false
     visible_shared: false
 
@@ -210,7 +210,7 @@ collections:
     url_background: https://images.unsplash.com/photo-1598391990342-311775e3d374
     collection_order: random
     schedule: weekly(sunday)
-    visible_library: true
+    visible_library: false
     visible_home: false
     visible_shared: false
 
@@ -224,7 +224,7 @@ collections:
     url_background: https://wallpapercave.com/wp/wp2328085.jpg
     collection_order: random
     schedule: weekly(sunday)
-    visible_library: true
+    visible_library: false
     visible_home: false
     visible_shared: false
 
@@ -239,6 +239,6 @@ collections:
         writer: "Stephen King"
       sort_by: release.asc
     schedule: weekly(sunday)
-    visible_library: true
+    visible_library: false
     visible_home: false
     visible_shared: false
