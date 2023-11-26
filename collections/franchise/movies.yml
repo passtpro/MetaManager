@@ -1,78 +1,109 @@
-######################################################
-#                Studio Collections                   #
-######################################################
 external_templates:
   - repo: templates/collections
   - repo: templates/dynamic_collections
 
 collections:
-  DC Comics Universe:
-    template: {name: Studio}
-    imdb_list: https://www.imdb.com/list/ls077827588/
+  "DC Comics Universe":
+    template: { name: Studio,
+               level: "+" }
+    summary: "DCEU"
+    collection_order: release
+    imdb_list: 
+	  - https://www.imdb.com/list/ls077827588/
     url_poster: https://i.imgur.com/TJr35Au.jpeg
     url_background: https://wallpaper.dog/large/17164614.jpg
-    visible_shared: true
-
-  Fast and the Furious:
-    template: {name: Studio}
-    trakt_list: https://trakt.tv/users/ireallylovevids/lists/fast-and-furious
+	
+  "Fast and the Furious":
+    template: { name: Studio,
+               level: "+" }
+    summary: "We're Family"
+    collection_order: release
+    trakt_list: 
+	  - https://trakt.tv/users/ireallylovevids/lists/fast-and-furious
     url_poster: https://i.imgur.com/dPnWh1B.jpeg
     url_background: https://images5.alphacoders.com/811/thumb-1920-811727.jpg
-    visible_shared: true
-
-  James Bond:
-    template: {name: Studio}
-    trakt_list: https://trakt.tv/users/any/lists/james-bond
+   
+  "James Bond":
+    template: { name: Studio,
+               level: "+" }
+    summary: "007"
+    collection_order: release
+    trakt_list: 
+	  - https://trakt.tv/users/any/lists/james-bond
     url_poster: https://i.imgur.com/DO6IDWi.jpeg
     url_background: https://www.pixel4k.com/wp-content/uploads/2018/09/james-bond-007_1536401470.jpg
-    visible_shared: true
-    
-  Jurassic Park:
-    template: {name: Studio}
-    trakt_list: https://trakt.tv/users/darkman1498/lists/jurassic-park
+	 
+  "Jurassic Park":
+    template: { name: Studio,
+               level: "+" }
+    summary: "007"
+    collection_order: release
+    trakt_list: 
+	  - https://trakt.tv/users/darkman1498/lists/jurassic-park
     url_poster: https://i.imgur.com/dj3gain.jpeg
     url_background: https://www.teahub.io/photos/full/54-546246_2500x1200-jurassic-world-wallpapers-jurassic-park-wallpaper-4k.jpg
-    visible_shared: true
+     
     
-  Lord of the Rings:
-    template: {name: Studio}
-    trakt_list: https://trakt.tv/users/lutgnature/lists/lord-of-the-rings-hobbit
+  "Lord of the Rings":
+    template: { name: Studio,
+               level: "+" }
+    summary: "007"
+    collection_order: release
+    trakt_list: 
+	  - https://trakt.tv/users/lutgnature/lists/lord-of-the-rings-hobbit
     url_poster: https://i.imgur.com/xFbp0IR.jpeg
     url_background: https://wallpaperaccess.com/full/838293.jpg
-    visible_shared: true
+     
     
-  Marvel Cinematic Universe:
-    template: {name: Studio}
-    trakt_list: https://trakt.tv/users/jawann2002/lists/marvel-cinematic-universe-movies?sort=rank,asc
+  "Marvel Cinematic Universe":
+    template: { name: Studio,
+               level: "+" }
+    summary: "007"
+    collection_order: release
+    trakt_list: 
+	  - https://trakt.tv/users/jawann2002/lists/marvel-cinematic-universe-movies?sort=rank,asc
     url_poster: https://i.imgur.com/iDi8DBe.jpeg
     url_background: https://images.hdqwalls.com/download/marvel-cinematic-universe-jm-3840x2400.jpg
-    visible_shared: true
+     
     
-  Spider-man Universe:
-    template: {name: Studio}
+  "Spider-man Universe":
+    template: { name: Studio,
+               level: "+" }
     trakt_list: https://trakt.tv/users/james_97/lists/spider-verse
     url_poster: https://i.imgur.com/keYWzrL.jpeg
     url_background: https://i.ibb.co/P59wtVs/download.jpg
-    visible_shared: true
+     
     
-  Star Wars:
-    template: {name: Studio}
-    trakt_list: https://trakt.tv/users/draackje/lists/star-wars
+  "Star Wars":
+    template: { name: Studio,
+               level: "+" }
+    summary: "007"
+    collection_order: release
+    trakt_list: 
+	  - https://trakt.tv/users/draackje/lists/star-wars
     url_poster: https://i.imgur.com/jlLZuOr.jpeg
     url_background: https://wallpaperaccess.com/full/1101749.jpg
-    visible_shared: true
+     
     
-  Wizarding World of Harry Potter:
-    template: {name: Studio}
-    tmdb_list_details: 63607
+  "Wizarding World of Harry Potter":
+    template: { name: Studio,
+               level: "+" }
+    summary: "007"
+    collection_order: release
+    trakt_list: 
+	  - https://trakt.tv/users/bubbles-prior/lists/wizarding-world
     url_poster: https://i.imgur.com/qjNHdhY.jpeg
     url_background: https://wallpaperaccess.com/full/562430.jpg
     sort_title: +09_Harry Potter
-    visible_shared: true
+     
     
-  X-Men:
-    template: {name: Studio}
-    trakt_list: https://trakt.tv/users/bertjj/lists/x-men
+  "X-Men":
+    template: { name: Studio,
+               level: "+" }
+    summary: "007"
+    collection_order: release
+    trakt_list: 
+	  - https://trakt.tv/users/bertjj/lists/x-men
     url_poster: https://i.imgur.com/GFamrIY.jpeg
     url_background: https://s2.best-wallpaper.net/wallpaper/3840x2160/1607/X-Men-Days-of-Future-Past-Ultra-HD_3840x2160.jpg
-    visible_shared: true
+     
