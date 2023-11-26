@@ -4,7 +4,7 @@ external_templates:
 
 collections:
   "DC Comics Universe":
-    template: { name: Studio,
+    template: { name: Franchise,
                level: "+" }
     summary: "DCEU"
     collection_order: release
@@ -14,7 +14,7 @@ collections:
     url_background: https://wallpaper.dog/large/17164614.jpg
 	
   "Fast and the Furious":
-    template: { name: Studio,
+    template: { name: Franchise,
                level: "+" }
     summary: "We're Family"
     collection_order: release
@@ -24,7 +24,7 @@ collections:
     url_background: https://images5.alphacoders.com/811/thumb-1920-811727.jpg
    
   "James Bond":
-    template: { name: Studio,
+    template: { name: Franchise,
                level: "+" }
     summary: "007"
     collection_order: release
@@ -34,7 +34,7 @@ collections:
     url_background: https://www.pixel4k.com/wp-content/uploads/2018/09/james-bond-007_1536401470.jpg
 	 
   "Jurassic Park":
-    template: { name: Studio,
+    template: { name: Franchise,
                level: "+" }
     summary: "007"
     collection_order: release
@@ -45,7 +45,7 @@ collections:
      
     
   "Lord of the Rings":
-    template: { name: Studio,
+    template: { name: Franchise,
                level: "+" }
     summary: "007"
     collection_order: release
@@ -56,7 +56,7 @@ collections:
      
     
   "Marvel Cinematic Universe":
-    template: { name: Studio,
+    template: { name: Franchise,
                level: "+" }
     summary: "007"
     collection_order: release
@@ -67,7 +67,7 @@ collections:
      
     
   "Spider-man Universe":
-    template: { name: Studio,
+    template: { name: Franchise,
                level: "+" }
     trakt_list: https://trakt.tv/users/james_97/lists/spider-verse
     url_poster: https://i.imgur.com/keYWzrL.jpeg
@@ -75,7 +75,7 @@ collections:
      
     
   "Star Wars":
-    template: { name: Studio,
+    template: { name: Franchise,
                level: "+" }
     summary: "007"
     collection_order: release
@@ -86,7 +86,7 @@ collections:
      
     
   "Wizarding World of Harry Potter":
-    template: { name: Studio,
+    template: { name: Franchise,
                level: "+" }
     summary: "007"
     collection_order: release
@@ -98,7 +98,7 @@ collections:
      
     
   "X-Men":
-    template: { name: Studio,
+    template: { name: Franchise,
                level: "+" }
     summary: "007"
     collection_order: release
