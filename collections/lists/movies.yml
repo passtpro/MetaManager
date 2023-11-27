@@ -4,7 +4,7 @@ external_templates:
 
 collections:
   # Movies with a perfect RT score, updated monthly
-  "💯 The 100 Club":
+  "The 100 Club":
     template: { name: Collection,
                 sort_title: "Best Movies Ever",
                 level: "+++" }
@@ -17,7 +17,7 @@ collections:
     visible_shared: true
 
   # Worst movies of all time, updated monthly
-  "💩 Just the Worst":
+  "Just the Worst":
     template: { name: Collection,
                 sort_title: "Worst Movies Ever",
                 level: "++" }
@@ -31,7 +31,7 @@ collections:
     visible_home: false
     visible_shared: true
 
-  "🤨 How Did This Get Made?":
+  "How Did This Get Made?":
     template: { name: Collection,
                 sort_title: "How Did This Get Made?",
                 level: "++" }
@@ -44,7 +44,7 @@ collections:
     visible_home: false
     visible_shared: true
 
-  "👍 Best Movie Ever":
+  "Best Movie Ever":
     template: { name: Collection,
                 sort_title: "Weekly Planet - Best Movie Ever",
                 level: "++" }
@@ -56,7 +56,7 @@ collections:
     visible_home: false
     visible_shared: true
 
-  "👎 Worst Movie Ever":
+  "Worst Movie Ever":
     template: { name: Collection,
                 sort_title: "Weekly Planet - Worst Movie Ever",
                 level: "++" }
@@ -68,7 +68,7 @@ collections:
     visible_home: false
     visible_shared: true
 
-  "🎩 1001 Movies You Must See Before You Die":
+  "1001 Movies You Must See Before You Die":
     template: { name: Collection,
                 sort_title: "1001 Movies You Must See Before You Die",
                 level: "++" }
@@ -81,7 +81,7 @@ collections:
     visible_home: false
     visible_shared: true
 
-  "🪣 100 Movies Bucket List":
+  "100 Movies Bucket List":
     template: { name: Collection,
                 sort_title: "100 Movies Bucket List",
                 level: "++" }
@@ -94,7 +94,7 @@ collections:
     visible_home: false
     visible_shared: true
 
-  "📽️ The Criterion Collection":
+  "The Criterion Collection":
     template: { name: Collection,
                 sort_title: "The Criterion Collection",
                 level: "++" }
@@ -107,45 +107,52 @@ collections:
     visible_home: false
     visible_shared: true
 
-  "🤵‍♂️ Bond. James Bond.":
+  "Bond. James Bond.":
     template: { name: Franchise,
                 sort_title: "James Bond",
                 level: "+" }
     summary: "007 forever"
-    mdblist_list: https://mdblist.com/lists/hdlists/james-bond-movies
+    trakt_list: 
+      - https://trakt.tv/users/any/lists/james-bond
     collection_order: release
     schedule: weekly(sunday)
+    url_poster: https://i.imgur.com/DO6IDWi.jpeg
+    url_background: https://www.pixel4k.com/wp-content/uploads/2018/09/james-bond-007_1536401470.jpg
     visible_library: false
     visible_home: false
-    visible_shared: false
+    visible_shared: true
 
-  "🦸 I Love You 3000":
+  "Marvel Cinematic Universe":
     template: { name: Franchise,
                 sort_title: "Marvel Cinematic Universe",
                 level: "+" }
-    summary: "The Marvel Cinematic Universe"
+    summary: "Mr. Stark? I don't feel so good."
     trakt_list:
-      - https://trakt.tv/users/cybercelia/lists/mcu
+      - https://trakt.tv/users/jawann2002/lists/marvel-cinematic-universe-movies?sort=rank,asc
+    url_poster: https://i.imgur.com/iDi8DBe.jpeg
+    url_background: https://images.hdqwalls.com/download/marvel-cinematic-universe-jm-3840x2400.jpg
     collection_order: release
     schedule: weekly(sunday)
     visible_library: false
     visible_home: false
-    visible_shared: false
+    visible_shared: true
 
-  "🦸 Tell Me, Do You Bleed?":
+  "DC Cinematic Universe":
     template: { name: Franchise,
                 sort_title: "DC Cinematic Universe",
                 level: "+" }
-    summary: "The DC Cinematic Universe"
+    summary: "Why so Serious?"
     trakt_list:
       - https://trakt.tv/users/maxrax/lists/dc-cinematics
+    url_poster: https://i.imgur.com/TJr35Au.jpeg
+    url_background: https://wallpaper.dog/large/17164614.jpg
     collection_order: release
     schedule: weekly(sunday)
     visible_library: false
     visible_home: false
-    visible_shared: false
+    visible_shared: true
 
-  "🐭 Disney Channel Original Movies":
+  "Disney Channel Original Movies":
     template: { name: Franchise,
                 sort_title: "Disney Channel Original Movies",
                 level: "+" }
@@ -158,8 +165,8 @@ collections:
     visible_home: false
     visible_shared: false
 
-  "🪐 To Boldly Go":
-    summary: "The Star Trek collection"
+  "Star Trek":
+    summary: "To Boldly Go"
     template: { name: Franchise,
                 sort_title: "Star Trek",
                 level: "+" }
@@ -170,24 +177,25 @@ collections:
     schedule: weekly(sunday)
     visible_library: false
     visible_home: false
-    visible_shared: false
+    visible_shared: true
 
-  "🚀 In A Galaxy Far, Far Away":
-    summary: "The Star Wars collection"
+  "Star Wars":
+    summary: "Do or do not, there is no try!"
     template: { name: Franchise,
                 sort_title: "Star Wars",
                 level: "+" }
     trakt_list_details:
-      - https://trakt.tv/users/sonicwarrior/lists/star-wars-canon-timeline
-    url_background: https://images.unsplash.com/photo-1579566346927-c68383817a25
+      - https://trakt.tv/users/draackje/lists/star-wars
+    url_poster: https://i.imgur.com/jlLZuOr.jpeg
+    url_background: https://wallpaperaccess.com/full/1101749.jpg
     collection_order: custom
     schedule: weekly(sunday)
     visible_library: false
     visible_home: false
-    visible_shared: false
+    visible_shared: true
 
-  "👽 Bears. Beets. Battlestar Galactica":
-    summary: "The Battlestar Galactica collection"
+  "Battlestar Galactica":
+    summary: "Bears. Beets. Battlestar Galactica"
     template: { name: Franchise,
                 sort_title: "Battlestar Galactica",
                 level: "+" }
@@ -200,8 +208,8 @@ collections:
     visible_home: false
     visible_shared: false
 
-  "🪶 To Be Or Not To Be":
-    summary: "The Shakespeare collection"
+  "Shakespeare Collection":
+    summary: "To be or not to be"
     template: { name: Franchise,
                 sort_title: "Shakespeare",
                 level: "+" }
@@ -214,8 +222,8 @@ collections:
     visible_home: false
     visible_shared: false
 
-  "🐦‍⬛ Quoth the Raven":
-    summary: "The Edgar Allan Poe collection"
+  "Edgar Allan Poe collection":
+    summary: "Rapping at my chamber door"
     template: { name: Franchise,
                 sort_title: "Edgar Allan Poe",
                 level: "+" }
@@ -228,8 +236,8 @@ collections:
     visible_home: false
     visible_shared: false
 
-  "📖 Get Busy Living, or Get Busy Dying":
-    summary: "The Stephen King collection"
+  "Stephen King collection":
+    summary: "We all float down here"
     template: { name: Franchise,
                 sort_title: "Stephen King",
                 level: "+",
@@ -242,3 +250,77 @@ collections:
     visible_library: false
     visible_home: false
     visible_shared: false
+
+  "Wizarding World of Harry Potter":
+    template: { name: Franchise,
+                sort_title: "Harry Potter Universe",
+                level: "+" }
+    summary: "It's pronounced Levi-O-sa."
+    tmdb_list_details: 63607
+    url_poster: https://i.imgur.com/qjNHdhY.jpeg
+    url_background: https://wallpaperaccess.com/full/562430.jpg
+    collection_order: release
+    schedule: weekly(sunday)
+    visible_library: false
+    visible_home: false
+    visible_shared: true
+
+  "Spiderman Universe":
+    template: { name: Franchise,
+                sort_title: "Spiderman Universe",
+                level: "+" }
+    summary: "With great power..."
+    trakt_list: 
+      - https://trakt.tv/users/james_97/lists/spider-verse
+    url_poster: https://i.imgur.com/keYWzrL.jpeg
+    url_background: https://i.ibb.co/P59wtVs/download.jpg
+    collection_order: release
+    schedule: weekly(sunday)
+    visible_library: false
+    visible_home: false
+    visible_shared: true
+
+  "Lord of the Rings":
+    template: { name: Franchise,
+                sort_title: "Lord of the Rings",
+                level: "+" }
+    summary: "Gondor calls for aid! And Rohan will answer!"
+    trakt_list:
+      - https://trakt.tv/users/lutgnature/lists/lord-of-the-rings-hobbit
+    url_poster: https://i.imgur.com/xFbp0IR.jpeg
+    url_background: https://wallpaperaccess.com/full/838293.jpg
+    collection_order: release
+    schedule: weekly(sunday)
+    visible_library: false
+    visible_home: false
+    visible_shared: true
+
+  "Jurassic Park":
+    template: { name: Franchise,
+                sort_title: "Jurassic Park Universe",
+                level: "+" }
+    summary: "Well, there it is."
+    trakt_list:
+      - https://trakt.tv/users/darkman1498/lists/jurassic-park
+    url_poster: https://i.imgur.com/dj3gain.jpeg
+    url_background: https://www.teahub.io/photos/full/54-546246_2500x1200-jurassic-world-wallpapers-jurassic-park-wallpaper-4k.jpg
+    collection_order: release
+    schedule: weekly(sunday)
+    visible_library: false
+    visible_home: false
+    visible_shared: true   
+
+  "Fast and the Furious":
+    template: { name: Franchise,
+                sort_title: "Fast Franchise",
+                level: "+" }
+    summary: "We're Family!"
+    trakt_list:
+      - https://trakt.tv/users/ireallylovevids/lists/fast-and-furious
+    url_poster: https://i.imgur.com/dPnWh1B.jpeg
+    url_background: https://images5.alphacoders.com/811/thumb-1920-811727.jpg
+    collection_order: release
+    schedule: weekly(sunday)
+    visible_library: false
+    visible_home: false
+    visible_shared: true
