@@ -116,7 +116,7 @@ collections:
       - https://trakt.tv/users/any/lists/james-bond
     collection_order: release
     schedule: weekly(sunday)
-    url_poster: https://i.imgur.com/DO6IDWi.jpeg
+    url_poster: https://theposterdb.com/api/assets/115662
     url_background: https://www.pixel4k.com/wp-content/uploads/2018/09/james-bond-007_1536401470.jpg
     visible_library: false
     visible_home: false
@@ -129,7 +129,7 @@ collections:
     summary: "Mr. Stark? I don't feel so good."
     trakt_list:
       - https://trakt.tv/users/jawann2002/lists/marvel-cinematic-universe-movies?sort=rank,asc
-    url_poster: https://i.imgur.com/iDi8DBe.jpeg
+    url_poster: https://theposterdb.com/api/assets/102275
     url_background: https://images.hdqwalls.com/download/marvel-cinematic-universe-jm-3840x2400.jpg
     collection_order: release
     schedule: weekly(sunday)
@@ -144,7 +144,7 @@ collections:
     summary: "Why so Serious?"
     trakt_list:
       - https://trakt.tv/users/maxrax/lists/dc-cinematics
-    url_poster: https://i.imgur.com/TJr35Au.jpeg
+    url_poster: https://theposterdb.com/api/assets/354852
     url_background: https://wallpaper.dog/large/17164614.jpg
     collection_order: release
     schedule: weekly(sunday)
@@ -159,6 +159,7 @@ collections:
     summary: "You're watching Disney Channel"
     imdb_list:
       - https://www.imdb.com/list/ls093405279
+    url_poster: https://theposterdb.com/api/assets/91267
     collection_order: release
     schedule: weekly(sunday)
     visible_library: false
@@ -172,6 +173,7 @@ collections:
                 level: "+" }
     trakt_list:
       - https://trakt.tv/users/dgw/lists/star-trek-canon
+    url_poster: https://theposterdb.com/api/assets/62523
     url_background: https://i.redd.it/vz20prnp8v551.jpg
     collection_order: release
     schedule: weekly(sunday)
@@ -186,7 +188,7 @@ collections:
                 level: "+" }
     trakt_list_details:
       - https://trakt.tv/users/draackje/lists/star-wars
-    url_poster: https://i.imgur.com/jlLZuOr.jpeg
+    url_poster: https://theposterdb.com/api/assets/1409
     url_background: https://wallpaperaccess.com/full/1101749.jpg
     collection_order: custom
     schedule: weekly(sunday)
@@ -246,6 +248,7 @@ collections:
       all:
         writer: "Stephen King"
       sort_by: release.asc
+    url_poster: https://theposterdb.com/api/assets/82242
     schedule: weekly(sunday)
     visible_library: false
     visible_home: false
@@ -257,7 +260,7 @@ collections:
                 level: "+" }
     summary: "It's pronounced Levi-O-sa."
     tmdb_list_details: 63607
-    url_poster: https://i.imgur.com/qjNHdhY.jpeg
+    url_poster: https://theposterdb.com/api/assets/69780
     url_background: https://wallpaperaccess.com/full/562430.jpg
     collection_order: release
     schedule: weekly(sunday)
@@ -272,7 +275,7 @@ collections:
     summary: "With great power..."
     trakt_list: 
       - https://trakt.tv/users/james_97/lists/spider-verse
-    url_poster: https://i.imgur.com/keYWzrL.jpeg
+    url_poster: https://theposterdb.com/api/assets/406220
     url_background: https://i.ibb.co/P59wtVs/download.jpg
     collection_order: release
     schedule: weekly(sunday)
@@ -287,7 +290,7 @@ collections:
     summary: "Gondor calls for aid! And Rohan will answer!"
     trakt_list:
       - https://trakt.tv/users/lutgnature/lists/lord-of-the-rings-hobbit
-    url_poster: https://i.imgur.com/xFbp0IR.jpeg
+    url_poster: https://theposterdb.com/api/assets/1716
     url_background: https://wallpaperaccess.com/full/838293.jpg
     collection_order: release
     schedule: weekly(sunday)
@@ -302,7 +305,7 @@ collections:
     summary: "Well, there it is."
     trakt_list:
       - https://trakt.tv/users/darkman1498/lists/jurassic-park
-    url_poster: https://i.imgur.com/dj3gain.jpeg
+    url_poster: https://theposterdb.com/api/assets/45080
     url_background: https://www.teahub.io/photos/full/54-546246_2500x1200-jurassic-world-wallpapers-jurassic-park-wallpaper-4k.jpg
     collection_order: release
     schedule: weekly(sunday)
@@ -317,10 +320,39 @@ collections:
     summary: "We're Family!"
     trakt_list:
       - https://trakt.tv/users/ireallylovevids/lists/fast-and-furious
-    url_poster: https://i.imgur.com/dPnWh1B.jpeg
+    url_poster: https://theposterdb.com/api/assets/1070
     url_background: https://images5.alphacoders.com/811/thumb-1920-811727.jpg
     collection_order: release
     schedule: weekly(sunday)
     visible_library: false
     visible_home: false
     visible_shared: true
+
+  "X-Men":
+    template: { name: Franchise,
+                sort_title: "X-Men Collection",
+                level: "+" }
+    summary: "To me my X-Men!"
+    trakt_list:
+      - https://trakt.tv/users/bertjj/lists/x-men
+    url_poster: https://theposterdb.com/api/assets/171112
+    url_background: https://s2.best-wallpaper.net/wallpaper/3840x2160/1607/X-Men-Days-of-Future-Past-Ultra-HD_3840x2160.jpg
+    collection_order: release
+    schedule: weekly(sunday)
+    visible_library: false
+    visible_home: false
+    visible_shared: true    
+
+  "Pixar Collection":
+    template: { name: Studio,
+                sort_title: "Pixar Collection",
+                level: "+" }
+    summary: "To infinity and beyond!"            
+    imdb_list: https://www.imdb.com/list/ls087911008/
+    collection_order: release
+    url_poster: https://theposterdb.com/api/assets/73657
+    url_background: https://wallpapercave.com/wp/GysuwJ2.jpg
+    schedule: weekly(sunday)
+    visible_library: false
+    visible_home: false
+    visible_shared: true 
