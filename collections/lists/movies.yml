@@ -187,7 +187,7 @@ collections:
                 sort_title: "Star Wars",
                 level: "+" }
     trakt_list_details:
-      - https://trakt.tv/users/draackje/lists/star-wars
+      - https://trakt.tv/lists/1266904
     url_poster: https://theposterdb.com/api/assets/1409
     url_background: https://wallpaperaccess.com/full/1101749.jpg
     collection_order: custom
@@ -319,7 +319,7 @@ collections:
                 level: "+" }
     summary: "We're Family!"
     trakt_list:
-      - https://trakt.tv/users/ireallylovevids/lists/fast-and-furious
+      - https://trakt.tv/lists/804093
     url_poster: https://theposterdb.com/api/assets/1070
     url_background: https://images5.alphacoders.com/811/thumb-1920-811727.jpg
     collection_order: release
@@ -348,7 +348,8 @@ collections:
                 sort_title: "Pixar Collection",
                 level: "+" }
     summary: "To infinity and beyond!"            
-    imdb_list: https://www.imdb.com/list/ls087911008/
+    trakt_list: 
+      - https://trakt.tv/lists/840397
     collection_order: release
     url_poster: https://theposterdb.com/api/assets/73657
     url_background: https://wallpapercave.com/wp/GysuwJ2.jpg
