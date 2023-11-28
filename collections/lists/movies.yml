@@ -115,7 +115,7 @@ collections:
     trakt_list: 
       - https://trakt.tv/users/any/lists/james-bond
     collection_order: release
-    schedule: weekly(monday)
+    schedule: daily
     url_poster: https://theposterdb.com/api/assets/115662
     url_background: https://www.pixel4k.com/wp-content/uploads/2018/09/james-bond-007_1536401470.jpg
     visible_library: false
@@ -132,7 +132,7 @@ collections:
     url_poster: https://theposterdb.com/api/assets/102275
     url_background: https://images.hdqwalls.com/download/marvel-cinematic-universe-jm-3840x2400.jpg
     collection_order: release
-    schedule: weekly(monday)
+    schedule: daily
     visible_library: false
     visible_home: false
     visible_shared: true
@@ -147,7 +147,7 @@ collections:
     url_poster: https://theposterdb.com/api/assets/354852
     url_background: https://wallpaper.dog/large/17164614.jpg
     collection_order: release
-    schedule: weekly(monday)
+    schedule: daily
     visible_library: false
     visible_home: false
     visible_shared: true
@@ -161,7 +161,7 @@ collections:
       - https://www.imdb.com/list/ls093405279
     url_poster: https://theposterdb.com/api/assets/91267
     collection_order: release
-    schedule: weekly(monday)
+    schedule: daily
     visible_library: false
     visible_home: false
     visible_shared: false
@@ -176,7 +176,7 @@ collections:
     url_poster: https://theposterdb.com/api/assets/62523
     url_background: https://i.redd.it/vz20prnp8v551.jpg
     collection_order: release
-    schedule: weekly(monday)
+    schedule: daily
     visible_library: false
     visible_home: false
     visible_shared: true
@@ -191,7 +191,7 @@ collections:
     url_poster: https://theposterdb.com/api/assets/1409
     url_background: https://wallpaperaccess.com/full/1101749.jpg
     collection_order: custom
-    schedule: weekly(monday)
+    schedule: daily
     visible_library: false
     visible_home: false
     visible_shared: true
@@ -205,7 +205,7 @@ collections:
       - https://trakt.tv/users/mraniki/lists/battlestar-galactica-universe
     url_background: https://wallpapercave.com/wp/vPJGO64.jpg
     collection_order: custom
-    schedule: weekly(monday)
+    schedule: daily
     visible_library: false
     visible_home: false
     visible_shared: false
@@ -219,7 +219,7 @@ collections:
       - https://trakt.tv/users/michaeldibben/lists/shakespeare-plays
     url_background: https://images.unsplash.com/photo-1598391990342-311775e3d374
     collection_order: random
-    schedule: weekly(monday)
+    schedule: daily
     visible_library: false
     visible_home: false
     visible_shared: false
@@ -233,7 +233,7 @@ collections:
       - https://trakt.tv/users/majeed_pk/lists/the-best-edgar-allan-poe-adaptations
     url_background: https://wallpapercave.com/wp/wp2328085.jpg
     collection_order: random
-    schedule: weekly(monday)
+    schedule: daily
     visible_library: false
     visible_home: false
     visible_shared: false
@@ -249,7 +249,7 @@ collections:
         writer: "Stephen King"
       sort_by: release.asc
     url_poster: https://theposterdb.com/api/assets/82242
-    schedule: weekly(monday)
+    schedule: daily
     visible_library: false
     visible_home: false
     visible_shared: false
@@ -263,7 +263,7 @@ collections:
     url_poster: https://theposterdb.com/api/assets/69780
     url_background: https://wallpaperaccess.com/full/562430.jpg
     collection_order: release
-    schedule: weekly(monday)
+    schedule: daily
     visible_library: false
     visible_home: false
     visible_shared: true
@@ -278,7 +278,7 @@ collections:
     url_poster: https://theposterdb.com/api/assets/406220
     url_background: https://i.ibb.co/P59wtVs/download.jpg
     collection_order: release
-    schedule: weekly(monday)
+    schedule: daily
     visible_library: false
     visible_home: false
     visible_shared: true
@@ -293,7 +293,7 @@ collections:
     url_poster: https://theposterdb.com/api/assets/1716
     url_background: https://wallpaperaccess.com/full/838293.jpg
     collection_order: release
-    schedule: weekly(monday)
+    schedule: daily
     visible_library: false
     visible_home: false
     visible_shared: true
@@ -308,7 +308,7 @@ collections:
     url_poster: https://theposterdb.com/api/assets/45080
     url_background: https://www.teahub.io/photos/full/54-546246_2500x1200-jurassic-world-wallpapers-jurassic-park-wallpaper-4k.jpg
     collection_order: release
-    schedule: weekly(monday)
+    schedule: daily)
     visible_library: false
     visible_home: false
     visible_shared: true   
@@ -323,7 +323,7 @@ collections:
     url_poster: https://theposterdb.com/api/assets/1070
     url_background: https://images5.alphacoders.com/811/thumb-1920-811727.jpg
     collection_order: release
-    schedule: weekly(monday)
+    schedule: daily
     visible_library: false
     visible_home: false
     visible_shared: true
@@ -338,7 +338,7 @@ collections:
     url_poster: https://theposterdb.com/api/assets/171112
     url_background: https://s2.best-wallpaper.net/wallpaper/3840x2160/1607/X-Men-Days-of-Future-Past-Ultra-HD_3840x2160.jpg
     collection_order: release
-    schedule: weekly(monday)
+    schedule: daily
     visible_library: false
     visible_home: false
     visible_shared: true    
@@ -353,7 +353,7 @@ collections:
     collection_order: release
     url_poster: https://theposterdb.com/api/assets/73657
     url_background: https://wallpapercave.com/wp/GysuwJ2.jpg
-    schedule: weekly(monday)
+    schedule: daily
     visible_library: false
     visible_home: false
     visible_shared: true 
