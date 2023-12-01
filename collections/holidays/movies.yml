@@ -254,6 +254,7 @@ collections:
       - https://trakt.tv/users/questdvd/lists/absolute-hayes-christmas-classics
       - https://trakt.tv/users/littlestella3/lists/christmas
     url_poster: https://theposterdb.com/api/assets/48897
+    server_preroll: /preroll/Christmas.mp4
 
   "🎁 Hallmark Christmas":
     schedule: range(11/15-01/01)
