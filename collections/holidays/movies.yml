@@ -11,7 +11,7 @@ collections:
     template: { name: Holiday,
                 level: "++" }
     summary: "Ring in the New Year with these movies!"
-    collection_order: random
+#    collection_order: random
     imdb_list:
       - https://www.imdb.com/list/ls066838460/
     url_poster: https://theposterdb.com/api/assets/408570
@@ -24,7 +24,7 @@ collections:
     template: { name: Holiday,
                 level: "++" }
     summary: "Love me tender, love me sweet, never let me go."
-    collection_order: random
+#    collection_order: random
     imdb_list:
       - https://www.imdb.com/list/ls000094398/
       - https://www.imdb.com/list/ls057783436/
@@ -39,7 +39,7 @@ collections:
     template: { name: Holiday,
                 level: "++" }
     summary: "Kiss Me, I'm Irish."
-    collection_order: random
+#    collection_order: random
     imdb_list:
       - https://www.imdb.com/list/ls063934595/
     url_poster: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/seasonal/patrick.jpg
@@ -52,7 +52,7 @@ collections:
     template: { name: Holiday,
                 level: "+" }
     summary: "Blaze it!"
-    collection_order: random
+#    collection_order: random
     imdb_list:
       - https://www.imdb.com/list/ls075204988/
     url_poster: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/seasonal/420.jpg
@@ -65,7 +65,7 @@ collections:
     template: { name: Holiday,
                 level: "++" }
     summary: "Hoppy Easter!"
-    collection_order: random
+#    collection_order: random
     imdb_list:
       - https://www.imdb.com/list/ls062665509/
       - https://www.imdb.com/list/ls051733651/
@@ -79,7 +79,7 @@ collections:
     template: { name: Holiday,
                 level: "++" }
     summary: "Thanks Mom!"
-    collection_order: random
+#    collection_order: random
     imdb_list:
       - https://www.imdb.com/list/ls072551197/
     url_poster: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/seasonal/mother.jpg
@@ -92,7 +92,7 @@ collections:
     template: { name: Holiday,
                 level: "++" }
     summary: "Remembering those who gave their lives for our freedom."
-    collection_order: random
+#    collection_order: random
     imdb_list:
       - https://www.imdb.com/list/ls002014923/
     url_poster: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/seasonal/memorial.jpg
@@ -105,7 +105,7 @@ collections:
     template: { name: Holiday,
                 level: "++" }
     summary: "Thanks Dad!"
-    collection_order: random
+#    collection_order: random
     imdb_list:
       - https://www.imdb.com/list/ls020471057/
     url_poster: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/seasonal/father.jpg
@@ -118,7 +118,7 @@ collections:
     template: { name: Holiday,
                 level: "++" }
     summary: "Celebrate the 4th of July with these movies!"
-    collection_order: random
+#    collection_order: random
     imdb_list:
       - https://www.imdb.com/list/ls068664510/
       - https://www.imdb.com/list/ls080925875/
@@ -132,7 +132,7 @@ collections:
     template: { name: Holiday,
                 level: "++" }
     summary: "Labor Day is a day off, but these movies are hard work."
-    collection_order: random
+#    collection_order: random
     imdb_list:
       - https://www.imdb.com/list/ls002014923/
     url_poster: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/seasonal/labor.jpg
@@ -145,17 +145,17 @@ collections:
     template: { name: Holiday,
                 level: "+++" }
     summary: "Boo!"
-    collection_order: random
+#    collection_order: random
     imdb_list:
       - https://www.imdb.com/list/ls023118929/
       - https://www.imdb.com/list/ls000099714/
     trakt_list:
       - https://trakt.tv/users/29zombies/lists/halloween
       - https://trakt.tv/users/galacticboy/lists/not-so-spooky-halloween
-      # - https://trakt.tv/users/kairbear08/lists/halloween
-      # - https://trakt.tv/users/mybicycle/lists/halloween
-      # - https://trakt.tv/users/jayinftl/lists/halloween
-      # - https://trakt.tv/users/roswellgeek/lists/halloween
+      - https://trakt.tv/users/kairbear08/lists/halloween
+      - https://trakt.tv/users/mybicycle/lists/halloween
+      - https://trakt.tv/users/jayinftl/lists/halloween
+      - https://trakt.tv/users/roswellgeek/lists/halloween
     tmdb_collection:
       - 185103    # Hotel Transylvania
       - 11716     # Addams Family
@@ -179,7 +179,7 @@ collections:
     template: { name: Holiday,
                 level: "+" }
     summary: "Don't be scared, it's just a movie."
-    collection_order: random
+#    collection_order: random
     trakt_list:
       - https://trakt.tv/users/lish408/lists/31-days-of-horror-2023  # TODO: Change annually
 
@@ -191,7 +191,7 @@ collections:
     template: { name: Holiday,
                 level: "++" }
     summary: "Trick or Treat!"
-    collection_order: random
+#    collection_order: random
     trakt_list:
       - https://trakt.tv/users/hdlists/lists/halloween-movies-for-kids
 
@@ -203,7 +203,7 @@ collections:
     template: { name: Holiday,
                 level: "+" }
     summary: "He's right behind you!"
-    collection_order: random
+#    collection_order: random
     trakt_list:
       - https://trakt.tv/users/hdlists/lists/80s-slasher-movies
 
@@ -215,7 +215,7 @@ collections:
     template: { name: Holiday,
                 level: "++" }
     summary: "I like the noise of democracy."
-    collection_order: random
+ #   collection_order: random
     trakt_list:
       - https://trakt.tv/users/majeed_pk/lists/best-political-movies
 
@@ -227,7 +227,7 @@ collections:
     template: { name: Holiday,
                 level: "++" }
     summary: "Gobble gobble!"
-    collection_order: random
+#    collection_order: random
     imdb_list:
       - https://www.imdb.com/list/ls000835734/
       - https://www.imdb.com/list/ls091597850/
@@ -246,7 +246,7 @@ collections:
     template: { name: Holiday,
                 level: "++" }
     summary: "Cozy up with some Christmas classics."
-    collection_order: random
+#    collection_order: random
     imdb_list:
       - https://www.imdb.com/list/ls000096828/
     trakt_list:
@@ -264,7 +264,7 @@ collections:
     template: { name: Holiday,
                 level: "+" }
     summary: "Christmas movies with extra-sap!"
-    collection_order: random
+#    collection_order: random
     trakt_list:
       - https://trakt.tv/users/mzdiobolik/lists/hallmark-christmas-movies
     url_poster: https://theposterdb.com/api/assets/48894
