@@ -1,6 +1,6 @@
 external_templates:
-  - repo: templates/collections
-  - repo: templates/dynamic_collections
+  - git: templates/collections
+  - git: templates/dynamic_collections
 
 collections:
   # Top movies via IMDB, updated twice a week
